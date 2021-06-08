@@ -7,12 +7,21 @@
     <title>Banana speaks</title>
     <style>
         textarea{
-            height: 10rem;
+            height: 10vh;
             width: 50%;
             display: block;
             margin: 1rem;
             padding: 1rem;
         }
+        #output{
+            border:1px solid black;
+            height:10vh;
+            width: 50%;
+            display: block;
+            margin: 1rem;
+            padding: 1rem;
+        }
+
     </style>
 </head>
     
@@ -20,6 +29,7 @@
     <h1>Talk Banana</h1>
     <textarea  id="txt-input" placeholder="put your english here and will convert it here"></textarea>
     <button id="btn-translate">Translate</button>
+    <div id="output">Output will come here 👇</div>
     <script src="app.js" type="text/javascript"></script>
 </body>
 </html>
