@@ -1,35 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana speaks</title>
-    <style>
-        textarea{
-            height: 10vh;
-            width: 50%;
-            display: block;
-            margin: 1rem;
-            padding: 1rem;
-        }
-        #output{
-            border:1px solid black;
-            height:10vh;
-            width: 50%;
-            display: block;
-            margin: 1rem;
-            padding: 1rem;
-        }
+    <link rel="stylesheet" href="styles.css">
 
-    </style>
 </head>
-    
+
 <body>
-    <h1>Talk Banana</h1>
-    <textarea  id="txt-input" placeholder="put your english here and will convert it here"></textarea>
-    <button id="btn-translate">Translate</button>
-    <div id="output">Output will come here 👇</div>
+    <header class="hero">
+        <h2 class="hero-heading">Talk Banana</h2>
+    </header>
+    <section class="section">
+        <textarea id="txt-input" placeholder="put your english here and will convert it here"></textarea>
+
+    </section>
+
+    <section class="section ow">
+
+        <button id="btn-translate">Translate</button>
+
+    </section>
+    
+    
+
+    <section class="section">
+        <div id="output">Output will come here 👇</div>
+
+    </section>
+
+    <footer class="footer">
+        
+    </footer>
+    
     <script src="app.js" type="text/javascript"></script>
 </body>
+
 </html>
